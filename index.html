@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        input, button { margin-bottom: 10px; padding: 8px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        label { display: block; margin-bottom: 5px; }
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-label input {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>5-2-1</h1>
+        <div class="checkbox-label">
+            <input type="checkbox" id="checkbox1" checked>
+            <label for="text1">Text 1</label>
+            <input type="text" id="text1" placeholder="Enter text here">
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" id="checkbox2" checked>
+            <label for="text2">Text 2</label>
+            <input type="text" id="text2" placeholder="Enter text here">
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" id="checkbox3" checked>
+            <label for="text3">Text 3</label>
+            <input type="text" id="text3" placeholder="Enter text here">
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" id="checkbox4" checked>
+            <label for="text4">Text 4</label>
+            <input type="text" id="text4" placeholder="Enter text here">
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" id="checkbox5" checked>
+            <label for="text5">Text 5</label>
+            <input type="text" id="text5" placeholder="Enter text here">
+        </div>
+
+        <button onclick="generateLink()">Generate Link</button>
+        <p id="generated-link"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
