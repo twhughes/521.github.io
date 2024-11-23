@@ -44,11 +44,11 @@ function loadFromURLParams() {
     document.getElementById('text4').value = urlParams.get('text4') || '';
     document.getElementById('text5').value = urlParams.get('text5') || '';
 
-    document.getElementById('checkbox1').checked = urlParams.get('checkbox1') === 'true' || true; // Default checked
-    document.getElementById('checkbox2').checked = urlParams.get('checkbox2') === 'true' || true; // Default checked
-    document.getElementById('checkbox3').checked = urlParams.get('checkbox3') === 'true' || true; // Default checked
-    document.getElementById('checkbox4').checked = urlParams.get('checkbox4') === 'true' || true; // Default checked
-    document.getElementById('checkbox5').checked = urlParams.get('checkbox5') === 'true' || true; // Default checked
+    document.getElementById('checkbox1').checked = urlParams.get('checkbox1') === 'true'; // Default checked
+    document.getElementById('checkbox2').checked = urlParams.get('checkbox2') === 'true'; // Default checked
+    document.getElementById('checkbox3').checked = urlParams.get('checkbox3') === 'true'; // Default checked
+    document.getElementById('checkbox4').checked = urlParams.get('checkbox4') === 'true'; // Default checked
+    document.getElementById('checkbox5').checked = urlParams.get('checkbox5') === 'true'; // Default checked
 }
 
 // Call the function on page load to populate data from URL if it exists
